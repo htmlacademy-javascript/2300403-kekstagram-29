@@ -12,7 +12,7 @@ function palindrome (string) {
   const clearString = string.replaceAll(' ', '');
   const lowerString = clearString.toLowerCase();
   let newString = '';
-  for (let stringCycle = lowerString.length - 1; stringCycle >= 0 ; stringCycle-- ) {
+  for (let stringCycle = lowerString.length - 1; stringCycle >= 0 ; stringCycle--) {
     newString += lowerString[stringCycle];
   }
   if (newString === lowerString) {
