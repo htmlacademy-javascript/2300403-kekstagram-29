@@ -72,7 +72,7 @@ const createRandomIdFromRangeGenerator = (min, max) => {
     previousValues.push(currentValue);
     return currentValue;
   };
-}
+};
 
 const generatePhotoId = createRandomIdFromRangeGenerator(1, 25);
 const generateUrl = createRandomIdFromRangeGenerator(1, 25);
@@ -111,5 +111,5 @@ const photoDescription = function () {
 
 
 const similarDescriptions = Array.from({length: 25}, photoDescription);
-
+similarDescriptions();
 // Генерация данных: console.log(similarDescriptions);
