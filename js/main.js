@@ -109,9 +109,9 @@ const photoDescription = function () {
   };
 };
 
+const startGenerate = () => {
+  const similarDescriptions = Array.from({length: 25}, photoDescription);
+  return similarDescriptions;
+};
 
-const similarDescriptions = Array.from({length: 25}, photoDescription);
-
-similarDescriptions;
-
-// Генерация данных: console.log(similarDescriptions);
+startGenerate();
