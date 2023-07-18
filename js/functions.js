@@ -21,7 +21,7 @@ function palindrome (string) {
   }
   return false;
 }
-palindrome();
+palindrome('Довод довод');
 
 // Функция принимает строку, извлекает содержащиеся в ней цифры от 0 до 9 и возвращает их в виде целого положительного числа.
 function numberExtractor (string) {
@@ -39,4 +39,4 @@ function numberExtractor (string) {
     return numberString;
   }
 }
-numberExtractor();
+numberExtractor('Д0В0Д');
